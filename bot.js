@@ -13,15 +13,11 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "512532251850833934"; 
-var channel = "512533817656082453
-
-";
+var channel = "512533817656082453";
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('Welcome welcome')
+    client.guilds.get(server).channels.get(channel).send('الكلام')
     },305);
-})6
-
-
+})
 
 
 
